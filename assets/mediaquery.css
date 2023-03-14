@@ -1,0 +1,40 @@
+@media only screen and (max-width: 900px) {
+    .App {
+        width: 100%;
+    }
+
+    #root {
+        padding: 0
+    }
+
+    .toggle {
+        top: 5%;
+        left: 72%;
+    }
+
+    .toggle label {
+        border-radius: 50px;
+        width: 80px;
+        height: 30px;
+    }
+
+    .toggle label::after {
+        /* background-color: #555; */
+        left: 2px;
+        top: 2px;
+        width: 22px;
+        height: 22px;
+    }
+}
+
+/* @media screen and (max-width: 1000px) and (min-width: 901px) {
+    .App {
+        width: 70% !important;
+    }
+
+    .toggle {
+        left: 2%;
+        top: 2%;
+    }
+
+} */
